@@ -1,10 +1,10 @@
 :root {
   --bg: #ffffff;
   --surface: #ffffff;
-  --surface-alt: #f0f0f5; /* primary-50 */
-  --text: #19183b; /* primary-500 */
-  --muted: #60609a; /* primary-400 */
-  --primary: #19183b; /* primary-500 */
+  --surface-alt: #f0f0f5;
+  --text: #19183b;
+  --muted: #60609a;
+  --primary: #19183b;
   --primary-50: #f0f0f5;
   --primary-100: #dedee8;
   --primary-200: #b4b4ce;
@@ -15,7 +15,7 @@
   --primary-700: #0f0f23;
   --primary-800: #0a0a18;
   --primary-900: #05050c;
-  --border: #dedee8; /* primary-100 */
+  --border: #dedee8;
   --ok: #22c55e;
   --danger: #ef4444;
   --shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
