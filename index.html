@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AcademicHive — Modern Course Management System</title>
+    <meta
+      name="description"
+      content="AcademicHive helps teachers manage courses and students learn effectively with modern tools."
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <style>
+      .icon,
+      .card-icon,
+      .role-icon {
+        font-family: "Material Symbols Outlined";
+        font-weight: normal;
+        font-style: normal;
+        font-size: 36px;
+        display: inline-block;
+        line-height: 1;
+        vertical-align: middle;
+        color: #444;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="site-header">
+      <a class="logo" href="#home">
+        <img src="/favicon.svg" height="24" width="24" />
+        <span class="logo-text">Academic Hive</span>
+      </a>
+
+      <input id="nav-toggle" class="nav-toggle-input" type="checkbox" />
+      <label for="nav-toggle" class="nav-toggle"
+        ><span></span><span></span><span></span
+      ></label>
+
+      <nav class="site-nav">
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="http://localhost:5173/login" class="btn btn-small"
+          >Get Started</a
+        >
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <div class="badge">🎓 Course Management Reimagined</div>
+            <h1>Empower Education with AcademicHive</h1>
+            <p class="lead">
+              The all-in-one platform where teachers manage courses seamlessly
+              and students learn effectively. Track progress, submit
+              assignments, and engage with course materials—all in one place.
+            </p>
+            <div class="cta-buttons">
+              <a href="http://localhost:5173/signup" class="btn btn-primary"
+                >Sign Up Free</a
+              >
+              <a href="#features" class="btn btn-secondary">Explore Features</a>
+            </div>
+            <div class="trust-badges">
+              <span>✓ Free Forever</span>
+              <span>✓ No Credit Card</span>
+              <span>✓ Unlimited Courses</span>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="card-grid">
+              <div class="card card-animated">
+                <div class="card-icon">menu_book</div>
+                <div class="card-title">Active Courses</div>
+                <div class="card-value">1,247</div>
+                <div class="card-sub">Running this semester</div>
+              </div>
+              <div class="card card-animated" style="animation-delay: 0.1s">
+                <div class="card-icon">groups</div>
+                <div class="card-title">Teachers</div>
+                <div class="card-value">3,892</div>
+                <div class="card-sub">Managing courses</div>
+              </div>
+              <div class="card card-animated" style="animation-delay: 0.2s">
+                <div class="card-icon">assignment</div>
+                <div class="card-title">Assignments</div>
+                <div class="card-value">15,624</div>
+                <div class="card-sub">Submitted this week</div>
+              </div>
+              <div class="card card-animated" style="animation-delay: 0.3s">
+                <div class="card-icon">school</div>
+                <div class="card-title">Students</div>
+                <div class="card-value">28,451</div>
+                <div class="card-sub">Learning daily</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Powerful Features for Modern Education</h2>
+            <p class="section-subtitle">
+              Everything you need to manage courses and track student progress
+            </p>
+          </div>
+          <div class="features-grid">
+            <article class="feature feature-hover">
+              <div class="icon">bar_chart</div>
+              <h3>Course Management</h3>
+              <p>
+                Create courses, add materials (videos, files, links), and track
+                enrollment with capacity limits.
+              </p>
+            </article>
+            <article class="feature feature-hover">
+              <div class="icon">edit_document</div>
+              <h3>Assignment Tracking</h3>
+              <p>
+                Create assignments, receive submissions, grade work, and provide
+                feedback instantly.
+              </p>
+            </article>
+            <article class="feature feature-hover">
+              <div class="icon">videocam</div>
+              <h3>Video Integration</h3>
+              <p>
+                Embed YouTube videos directly into course materials for rich
+                learning experiences.
+              </p>
+            </article>
+            <article class="feature feature-hover">
+              <div class="icon">insights</div>
+              <h3>Progress Tracking</h3>
+              <p>
+                Monitor student progress with detailed analytics for materials
+                and assignments.
+              </p>
+            </article>
+            <article class="feature feature-hover">
+              <div class="icon">notifications_active</div>
+              <h3>Smart Notifications</h3>
+              <p>
+                Get real-time alerts for submissions, new assignments, and
+                course updates.
+              </p>
+            </article>
+            <article class="feature feature-hover">
+              <div class="icon">calendar_month</div>
+              <h3>Calendar & Events</h3>
+              <p>
+                Schedule classes, deadlines, and events with an integrated
+                calendar view.
+              </p>
+            </article>
+            <article class="feature feature-hover">
+              <div class="icon">grading</div>
+              <h3>Grading System</h3>
+              <p>
+                Comprehensive grading with 0-100 scale and instant student
+                feedback.
+              </p>
+            </article>
+            <article class="feature feature-hover">
+              <div class="icon">check_circle</div>
+              <h3>Material Completion</h3>
+              <p>
+                Students mark materials complete to track their learning
+                journey.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section alt">
+        <div class="container two-col">
+          <div>
+            <h2>Built for Education, Designed for Success</h2>
+            <p>
+              AcademicHive streamlines the entire course lifecycle—from creation
+              to completion. We bring teachers and students together with
+              powerful tools that make learning engaging and management
+              effortless.
+            </p>
+            <ul class="checklist">
+              <li>Real-time progress tracking for all students</li>
+              <li>Instant notifications for submissions and grades</li>
+              <li>Rich course materials with video embeds</li>
+              <li>Secure role-based access control</li>
+              <li>Responsive design for all devices</li>
+              <li>Data caching for lightning-fast performance</li>
+            </ul>
+          </div>
+          <div>
+            <div class="stat">
+              <div class="stat-value">5 min</div>
+              <div>Cache duration for optimal performance</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value">100%</div>
+              <div>Free and open source</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value">∞</div>
+              <div>Unlimited courses & students</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="how-it-works" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>How It Works</h2>
+            <p class="section-subtitle">Get started in minutes, not hours</p>
+          </div>
+          <div class="workflow">
+            <div class="workflow-item">
+              <div class="workflow-number">1</div>
+              <h3>Create Your Account</h3>
+              <p>Sign up as a teacher or student. No credit card required.</p>
+            </div>
+            <div class="workflow-arrow">→</div>
+            <div class="workflow-item">
+              <div class="workflow-number">2</div>
+              <h3>Set Up Courses</h3>
+              <p>
+                Teachers create courses, add materials, and enroll students.
+              </p>
+            </div>
+            <div class="workflow-arrow">→</div>
+            <div class="workflow-item">
+              <div class="workflow-number">3</div>
+              <h3>Start Learning</h3>
+              <p>
+                Students access materials, submit assignments, and track
+                progress.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section roles-section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Tailored for Teachers & Students</h2>
+          </div>
+          <div class="roles-grid">
+            <div class="role-card">
+              <div class="role-icon">school</div>
+              <h3>For Teachers</h3>
+              <ul class="role-features">
+                <li>Create and manage unlimited courses</li>
+                <li>Upload materials (files, videos, links)</li>
+                <li>Create assignments with due dates</li>
+                <li>Grade submissions with feedback</li>
+                <li>View student progress and analytics</li>
+                <li>Schedule events and deadlines</li>
+                <li>Enroll students via email</li>
+              </ul>
+              <a href="http://localhost:5173/signup" class="btn btn-outline"
+                >Start Teaching</a
+              >
+            </div>
+            <div class="role-card">
+              <div class="role-icon">person</div>
+              <h3>For Students</h3>
+              <ul class="role-features">
+                <li>Access all enrolled courses</li>
+                <li>View materials with video embeds</li>
+                <li>Submit assignments online</li>
+                <li>Track grades and progress</li>
+                <li>Mark materials as complete</li>
+                <li>View calendar with deadlines</li>
+                <li>Receive instant notifications</li>
+              </ul>
+              <a href="http://localhost:5173/signup" class="btn btn-outline"
+                >Start Learning</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta-final">
+        <div class="container">
+          <div class="cta-box">
+            <h2>Ready to Transform Your Classroom?</h2>
+            <p class="lead">
+              Join thousands of teachers and students already using AcademicHive
+              to make education more effective and engaging.
+            </p>
+            <div class="cta-buttons">
+              <a
+                href="http://localhost:5173/signup"
+                class="btn btn-primary btn-large"
+                >Get Started Free</a
+              >
+              <a
+                href="http://localhost:5173/login"
+                class="btn btn-secondary btn-large"
+                >Sign In</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <img src="/favicon.svg" height="24" width="24" />
+          <div>
+            <div class="footer-logo">AcademicHive</div>
+            <div class="footer-tagline">Empowering Education</div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          © <span id="year"></span> AcademicHive. All rights reserved.
+        </div>
+        <div class="footer-links">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="mailto:team@academichive.org">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
